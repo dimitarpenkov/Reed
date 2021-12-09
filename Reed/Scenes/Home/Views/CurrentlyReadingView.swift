@@ -11,23 +11,40 @@ struct CurrentlyReadingView: View {
     
     var books: [Book]
     var body: some View {
-        HStack {
-            ForEach(books, id: \.id) { book in
-                VStack(spacing: 5) {
-                    Image(book.image)
-                    VStack {
-                        Text(book.title)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .font(.primary16Regular)
-                        Text("by \(book.author)")
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .font(.primary13Regular)
+        VStack {
+            CurrentlyReadingTitle()
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 26) {
+                    ForEach(books, id: \.id) { book in
+                        VerticalBookView(book: book)
                     }
-                    .foregroundColor(.white)
                 }
             }
+        }
+        
+    }
+}
+
+struct CurrentlyReadingTitle: View {
+    var body: some View {
+        HStack {
+            Text("Currently Reading")
+                .font(.primary25Bold)
+                .foregroundColor(.white)
+            Spacer()
+            Button("see all") {
+                // todo
+            }
+            .foregroundColor(.purple)
+            .padding(.trailing, 20)
+        }
+    }
+}
+struct CurrentlyReadingView_Previews: PreviewProvider {
+    static var previews: some View {
+        ZStack {
+            Color.black.edgesIgnoringSafeArea(.all)
+            CurrentlyReadingView(books: currentlyReadingBooks)
         }
     }
 }

@@ -27,6 +27,11 @@
 		A4BD4AA8276263BC0054273E /* KumbhSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A9F276263BC0054273E /* KumbhSans-SemiBold.ttf */; };
 		A4BD4AA9276263BC0054273E /* KumbhSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4AA0276263BC0054273E /* KumbhSans-Thin.ttf */; };
 		A4BD4AAA276263BC0054273E /* KumbhSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4AA1276263BC0054273E /* KumbhSans-Black.ttf */; };
+		A4BD4AAF276274720054273E /* HorizontalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4AAE276274720054273E /* HorizontalProgressView.swift */; };
+		A4BD4AB1276276F40054273E /* VerticalBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4AB0276276F40054273E /* VerticalBookView.swift */; };
+		A4BD4AB527627C070054273E /* TodaysProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4AB427627C070054273E /* TodaysProgressView.swift */; };
+		A4BD4AB727627CA70054273E /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4AB627627CA70054273E /* CircularProgressView.swift */; };
+		A4BD4ABA27627CBD0054273E /* Color+Reed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4AB927627CBD0054273E /* Color+Reed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,11 @@
 		A4BD4AA0276263BC0054273E /* KumbhSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Thin.ttf"; sourceTree = "<group>"; };
 		A4BD4AA1276263BC0054273E /* KumbhSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Black.ttf"; sourceTree = "<group>"; };
 		A4BD4AAB276263D70054273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A4BD4AAE276274720054273E /* HorizontalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalProgressView.swift; sourceTree = "<group>"; };
+		A4BD4AB0276276F40054273E /* VerticalBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalBookView.swift; sourceTree = "<group>"; };
+		A4BD4AB427627C070054273E /* TodaysProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysProgressView.swift; sourceTree = "<group>"; };
+		A4BD4AB627627CA70054273E /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		A4BD4AB927627CBD0054273E /* Color+Reed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Reed.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +131,12 @@
 		A4A9048B2760E62F004357FE /* Reed */ = {
 			isa = PBXGroup;
 			children = (
+				A4BD4AAC2762745B0054273E /* Reusables */,
+				A4BD4A8E276259A50054273E /* General */,
 				A4BD4AAB276263D70054273E /* Info.plist */,
 				A4A904922760E632004357FE /* Preview Content */,
 				A4A904902760E632004357FE /* Assets.xcassets */,
 				A4BD4A8F276259AC0054273E /* Resources */,
-				A4BD4A8E276259A50054273E /* General */,
 				A4BD4A8B2762594F0054273E /* DummyData */,
 				A4A904B62760E699004357FE /* Scenes */,
 			);
@@ -178,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				A4BD4A892762593E0054273E /* CurrentlyReadingView.swift */,
+				A4BD4AB427627C070054273E /* TodaysProgressView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,9 +231,36 @@
 				A4BD4A9B276263BC0054273E /* KumbhSans-Regular.ttf */,
 				A4BD4A9F276263BC0054273E /* KumbhSans-SemiBold.ttf */,
 				A4BD4AA0276263BC0054273E /* KumbhSans-Thin.ttf */,
-				A4BD4A95276260FA0054273E /* Font+Reed.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A4BD4AAC2762745B0054273E /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4AB827627CB30054273E /* Extensions */,
+				A4BD4AAD276274650054273E /* Views */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		A4BD4AAD276274650054273E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4AAE276274720054273E /* HorizontalProgressView.swift */,
+				A4BD4AB0276276F40054273E /* VerticalBookView.swift */,
+				A4BD4AB627627CA70054273E /* CircularProgressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4BD4AB827627CB30054273E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4A95276260FA0054273E /* Font+Reed.swift */,
+				A4BD4AB927627CBD0054273E /* Color+Reed.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,11 +402,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BD4AAF276274720054273E /* HorizontalProgressView.swift in Sources */,
+				A4BD4AB1276276F40054273E /* VerticalBookView.swift in Sources */,
+				A4BD4ABA27627CBD0054273E /* Color+Reed.swift in Sources */,
 				A4BD4A96276260FA0054273E /* Font+Reed.swift in Sources */,
+				A4BD4AB527627C070054273E /* TodaysProgressView.swift in Sources */,
 				A4A904B92760E6AC004357FE /* HomeView.swift in Sources */,
 				A4A9048F2760E62F004357FE /* ContentView.swift in Sources */,
 				A4BD4A8A2762593E0054273E /* CurrentlyReadingView.swift in Sources */,
 				A4BD4A8D276259590054273E /* Book.swift in Sources */,
+				A4BD4AB727627CA70054273E /* CircularProgressView.swift in Sources */,
 				A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

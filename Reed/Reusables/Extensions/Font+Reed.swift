@@ -15,6 +15,10 @@ extension Font {
     static var primary25Bold: Font {
         return Font.custom("KumbhSans-Bold", size: 25)
     }
+
+    static var primary18Bold: Font {
+        return Font.custom("KumbhSans-Bold", size: 18)
+    }
     
     // MARK: - Regular
 

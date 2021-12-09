@@ -13,28 +13,19 @@ struct HomeView: View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
             ScrollView(.vertical) {
-                VStack {
-                    HStack {
-                        Text("Currently Reading")
-                            .font(.primary25Bold)
-                            .foregroundColor(.white)
-                        Spacer()
-                        Button("see all") {
-                            for family in UIFont.familyNames.sorted() {
-                                let names = UIFont.fontNames(forFamilyName: family)
-                                print("family: \(family) font names: \(names)")
-                            }
-                        }
-                        .foregroundColor(.purple)
-                    }
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        CurrentlyReadingView(books: currentlyReadingBooks)
-                    }
+                VStack(spacing: 40.0) {
+                    CurrentlyReadingView(books: currentlyReadingBooks)
+                    TodaysProgressView(percentage: 80, timeLeft: 15)
                 }
             }
             .padding(.top, 30)
-            .padding(.horizontal, 20)
-            
+            .padding(.leading, 20)
         }
+    }
+}
+
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
     }
 }

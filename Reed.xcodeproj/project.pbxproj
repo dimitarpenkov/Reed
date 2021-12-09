@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9048C2760E62F004357FE /* ReedApp.swift */; };
+		A4A9048F2760E62F004357FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9048E2760E62F004357FE /* ContentView.swift */; };
+		A4A904912760E632004357FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A904902760E632004357FE /* Assets.xcassets */; };
+		A4A904942760E632004357FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A904932760E632004357FE /* Preview Assets.xcassets */; };
+		A4A9049E2760E632004357FE /* ReedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9049D2760E632004357FE /* ReedTests.swift */; };
+		A4A904A82760E632004357FE /* ReedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A904A72760E632004357FE /* ReedUITests.swift */; };
+		A4A904AA2760E632004357FE /* ReedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A904A92760E632004357FE /* ReedUITestsLaunchTests.swift */; };
+		A4A904B92760E6AC004357FE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A904B82760E6AC004357FE /* HomeView.swift */; };
+		A4BD4A8A2762593E0054273E /* CurrentlyReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4A892762593E0054273E /* CurrentlyReadingView.swift */; };
+		A4BD4A8D276259590054273E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4A8C276259590054273E /* Book.swift */; };
+		A4BD4A96276260FA0054273E /* Font+Reed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD4A95276260FA0054273E /* Font+Reed.swift */; };
+		A4BD4AA2276263BC0054273E /* KumbhSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A99276263BC0054273E /* KumbhSans-ExtraBold.ttf */; };
+		A4BD4AA3276263BC0054273E /* KumbhSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A9A276263BC0054273E /* KumbhSans-Light.ttf */; };
+		A4BD4AA4276263BC0054273E /* KumbhSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A9B276263BC0054273E /* KumbhSans-Regular.ttf */; };
+		A4BD4AA5276263BC0054273E /* KumbhSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A9C276263BC0054273E /* KumbhSans-Bold.ttf */; };
+		A4BD4AA6276263BC0054273E /* KumbhSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A9D276263BC0054273E /* KumbhSans-ExtraLight.ttf */; };
+		A4BD4AA7276263BC0054273E /* KumbhSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A9E276263BC0054273E /* KumbhSans-Medium.ttf */; };
+		A4BD4AA8276263BC0054273E /* KumbhSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4A9F276263BC0054273E /* KumbhSans-SemiBold.ttf */; };
+		A4BD4AA9276263BC0054273E /* KumbhSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4AA0276263BC0054273E /* KumbhSans-Thin.ttf */; };
+		A4BD4AAA276263BC0054273E /* KumbhSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4BD4AA1276263BC0054273E /* KumbhSans-Black.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4A9049A2760E632004357FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A904812760E62F004357FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A904882760E62F004357FE;
+			remoteInfo = Reed;
+		};
+		A4A904A42760E632004357FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A904812760E62F004357FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A904882760E62F004357FE;
+			remoteInfo = Reed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A904892760E62F004357FE /* Reed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A9048C2760E62F004357FE /* ReedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedApp.swift; sourceTree = "<group>"; };
+		A4A9048E2760E62F004357FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4A904902760E632004357FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4A904932760E632004357FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4A904992760E632004357FE /* ReedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A9049D2760E632004357FE /* ReedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedTests.swift; sourceTree = "<group>"; };
+		A4A904A32760E632004357FE /* ReedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A904A72760E632004357FE /* ReedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedUITests.swift; sourceTree = "<group>"; };
+		A4A904A92760E632004357FE /* ReedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4A904B82760E6AC004357FE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4BD4A892762593E0054273E /* CurrentlyReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentlyReadingView.swift; sourceTree = "<group>"; };
+		A4BD4A8C276259590054273E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A4BD4A95276260FA0054273E /* Font+Reed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Reed.swift"; sourceTree = "<group>"; };
+		A4BD4A99276263BC0054273E /* KumbhSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A4BD4A9A276263BC0054273E /* KumbhSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Light.ttf"; sourceTree = "<group>"; };
+		A4BD4A9B276263BC0054273E /* KumbhSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Regular.ttf"; sourceTree = "<group>"; };
+		A4BD4A9C276263BC0054273E /* KumbhSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Bold.ttf"; sourceTree = "<group>"; };
+		A4BD4A9D276263BC0054273E /* KumbhSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A4BD4A9E276263BC0054273E /* KumbhSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Medium.ttf"; sourceTree = "<group>"; };
+		A4BD4A9F276263BC0054273E /* KumbhSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A4BD4AA0276263BC0054273E /* KumbhSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Thin.ttf"; sourceTree = "<group>"; };
+		A4BD4AA1276263BC0054273E /* KumbhSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Black.ttf"; sourceTree = "<group>"; };
+		A4BD4AAB276263D70054273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A904862760E62F004357FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A904962760E632004357FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A904A02760E632004357FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A904802760E62F004357FE = {
+			isa = PBXGroup;
+			children = (
+				A4A9048B2760E62F004357FE /* Reed */,
+				A4A9049C2760E632004357FE /* ReedTests */,
+				A4A904A62760E632004357FE /* ReedUITests */,
+				A4A9048A2760E62F004357FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A9048A2760E62F004357FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A904892760E62F004357FE /* Reed.app */,
+				A4A904992760E632004357FE /* ReedTests.xctest */,
+				A4A904A32760E632004357FE /* ReedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A9048B2760E62F004357FE /* Reed */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4AAB276263D70054273E /* Info.plist */,
+				A4A904922760E632004357FE /* Preview Content */,
+				A4A904902760E632004357FE /* Assets.xcassets */,
+				A4BD4A8F276259AC0054273E /* Resources */,
+				A4BD4A8E276259A50054273E /* General */,
+				A4BD4A8B2762594F0054273E /* DummyData */,
+				A4A904B62760E699004357FE /* Scenes */,
+			);
+			path = Reed;
+			sourceTree = "<group>";
+		};
+		A4A904922760E632004357FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4A904932760E632004357FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4A9049C2760E632004357FE /* ReedTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A9049D2760E632004357FE /* ReedTests.swift */,
+			);
+			path = ReedTests;
+			sourceTree = "<group>";
+		};
+		A4A904A62760E632004357FE /* ReedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A904A72760E632004357FE /* ReedUITests.swift */,
+				A4A904A92760E632004357FE /* ReedUITestsLaunchTests.swift */,
+			);
+			path = ReedUITests;
+			sourceTree = "<group>";
+		};
+		A4A904B62760E699004357FE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A4A904B72760E6A0004357FE /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A4A904B72760E6A0004357FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4A882762592C0054273E /* Views */,
+				A4A904B82760E6AC004357FE /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A4BD4A882762592C0054273E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4A892762593E0054273E /* CurrentlyReadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4BD4A8B2762594F0054273E /* DummyData */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4A8C276259590054273E /* Book.swift */,
+			);
+			path = DummyData;
+			sourceTree = "<group>";
+		};
+		A4BD4A8E276259A50054273E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A4A9048C2760E62F004357FE /* ReedApp.swift */,
+				A4A9048E2760E62F004357FE /* ContentView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		A4BD4A8F276259AC0054273E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4A9027625F3E0054273E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4BD4A9027625F3E0054273E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4AA1276263BC0054273E /* KumbhSans-Black.ttf */,
+				A4BD4A9C276263BC0054273E /* KumbhSans-Bold.ttf */,
+				A4BD4A99276263BC0054273E /* KumbhSans-ExtraBold.ttf */,
+				A4BD4A9D276263BC0054273E /* KumbhSans-ExtraLight.ttf */,
+				A4BD4A9A276263BC0054273E /* KumbhSans-Light.ttf */,
+				A4BD4A9E276263BC0054273E /* KumbhSans-Medium.ttf */,
+				A4BD4A9B276263BC0054273E /* KumbhSans-Regular.ttf */,
+				A4BD4A9F276263BC0054273E /* KumbhSans-SemiBold.ttf */,
+				A4BD4AA0276263BC0054273E /* KumbhSans-Thin.ttf */,
+				A4BD4A95276260FA0054273E /* Font+Reed.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4A904882760E62F004357FE /* Reed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A904AD2760E632004357FE /* Build configuration list for PBXNativeTarget "Reed" */;
+			buildPhases = (
+				A4A904852760E62F004357FE /* Sources */,
+				A4A904862760E62F004357FE /* Frameworks */,
+				A4A904872760E62F004357FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reed;
+			productName = Reed;
+			productReference = A4A904892760E62F004357FE /* Reed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4A904982760E632004357FE /* ReedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A904B02760E632004357FE /* Build configuration list for PBXNativeTarget "ReedTests" */;
+			buildPhases = (
+				A4A904952760E632004357FE /* Sources */,
+				A4A904962760E632004357FE /* Frameworks */,
+				A4A904972760E632004357FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A9049B2760E632004357FE /* PBXTargetDependency */,
+			);
+			name = ReedTests;
+			productName = ReedTests;
+			productReference = A4A904992760E632004357FE /* ReedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4A904A22760E632004357FE /* ReedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A904B32760E632004357FE /* Build configuration list for PBXNativeTarget "ReedUITests" */;
+			buildPhases = (
+				A4A9049F2760E632004357FE /* Sources */,
+				A4A904A02760E632004357FE /* Frameworks */,
+				A4A904A12760E632004357FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A904A52760E632004357FE /* PBXTargetDependency */,
+			);
+			name = ReedUITests;
+			productName = ReedUITests;
+			productReference = A4A904A32760E632004357FE /* ReedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A904812760E62F004357FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A4A904882760E62F004357FE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A4A904982760E632004357FE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A4A904882760E62F004357FE;
+					};
+					A4A904A22760E632004357FE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A4A904882760E62F004357FE;
+					};
+				};
+			};
+			buildConfigurationList = A4A904842760E62F004357FE /* Build configuration list for PBXProject "Reed" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A904802760E62F004357FE;
+			productRefGroup = A4A9048A2760E62F004357FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A904882760E62F004357FE /* Reed */,
+				A4A904982760E632004357FE /* ReedTests */,
+				A4A904A22760E632004357FE /* ReedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A904872760E62F004357FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BD4AA5276263BC0054273E /* KumbhSans-Bold.ttf in Resources */,
+				A4BD4AA3276263BC0054273E /* KumbhSans-Light.ttf in Resources */,
+				A4BD4AA9276263BC0054273E /* KumbhSans-Thin.ttf in Resources */,
+				A4BD4AAA276263BC0054273E /* KumbhSans-Black.ttf in Resources */,
+				A4BD4AA7276263BC0054273E /* KumbhSans-Medium.ttf in Resources */,
+				A4A904942760E632004357FE /* Preview Assets.xcassets in Resources */,
+				A4A904912760E632004357FE /* Assets.xcassets in Resources */,
+				A4BD4AA2276263BC0054273E /* KumbhSans-ExtraBold.ttf in Resources */,
+				A4BD4AA4276263BC0054273E /* KumbhSans-Regular.ttf in Resources */,
+				A4BD4AA6276263BC0054273E /* KumbhSans-ExtraLight.ttf in Resources */,
+				A4BD4AA8276263BC0054273E /* KumbhSans-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A904972760E632004357FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A904A12760E632004357FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A904852760E62F004357FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BD4A96276260FA0054273E /* Font+Reed.swift in Sources */,
+				A4A904B92760E6AC004357FE /* HomeView.swift in Sources */,
+				A4A9048F2760E62F004357FE /* ContentView.swift in Sources */,
+				A4BD4A8A2762593E0054273E /* CurrentlyReadingView.swift in Sources */,
+				A4BD4A8D276259590054273E /* Book.swift in Sources */,
+				A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A904952760E632004357FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A9049E2760E632004357FE /* ReedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A9049F2760E632004357FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A904AA2760E632004357FE /* ReedUITestsLaunchTests.swift in Sources */,
+				A4A904A82760E632004357FE /* ReedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A9049B2760E632004357FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A904882760E62F004357FE /* Reed */;
+			targetProxy = A4A9049A2760E632004357FE /* PBXContainerItemProxy */;
+		};
+		A4A904A52760E632004357FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A904882760E62F004357FE /* Reed */;
+			targetProxy = A4A904A42760E632004357FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4A904AB2760E632004357FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4A904AC2760E632004357FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4A904AE2760E632004357FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reed/Preview Content\"";
+				DEVELOPMENT_TEAM = QUXDV9RZJ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mitkopenkov.Reed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4A904AF2760E632004357FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reed/Preview Content\"";
+				DEVELOPMENT_TEAM = QUXDV9RZJ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mitkopenkov.Reed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4A904B12760E632004357FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUXDV9RZJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mitkopenkov.ReedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reed.app/Reed";
+			};
+			name = Debug;
+		};
+		A4A904B22760E632004357FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUXDV9RZJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mitkopenkov.ReedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reed.app/Reed";
+			};
+			name = Release;
+		};
+		A4A904B42760E632004357FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUXDV9RZJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mitkopenkov.ReedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reed;
+			};
+			name = Debug;
+		};
+		A4A904B52760E632004357FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUXDV9RZJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mitkopenkov.ReedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A904842760E62F004357FE /* Build configuration list for PBXProject "Reed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A904AB2760E632004357FE /* Debug */,
+				A4A904AC2760E632004357FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A904AD2760E632004357FE /* Build configuration list for PBXNativeTarget "Reed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A904AE2760E632004357FE /* Debug */,
+				A4A904AF2760E632004357FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A904B02760E632004357FE /* Build configuration list for PBXNativeTarget "ReedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A904B12760E632004357FE /* Debug */,
+				A4A904B22760E632004357FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A904B32760E632004357FE /* Build configuration list for PBXNativeTarget "ReedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A904B42760E632004357FE /* Debug */,
+				A4A904B52760E632004357FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A904812760E62F004357FE /* Project object */;
+}

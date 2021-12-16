@@ -9,17 +9,22 @@ import SwiftUI
 import UIKit
 
 struct HomeView: View {
+    @State var selectedTab = "house"
     var body: some View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
-            ScrollView(.vertical) {
-                VStack(spacing: 40.0) {
-                    CurrentlyReadingView(books: currentlyReadingBooks)
-                    TodaysProgressView(percentage: 80, timeLeft: 15)
+            VStack {
+                ScrollView(.vertical) {
+                    VStack(spacing: 40.0) {
+                        CurrentlyReadingView(books: currentlyReadingBooks)
+                        TodaysProgressView(percentage: 80, timeLeft: 15)
+                    }
                 }
+                Spacer()
+                TabBar(selectedTab: $selectedTab)
             }
+            
             .padding(.top, 30)
-            .padding(.leading, 20)
         }
     }
 }

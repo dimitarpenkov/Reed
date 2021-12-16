@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A47A20BF276B40D9001FDB20 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A20BE276B40D8001FDB20 /* TabBar.swift */; };
+		A47A20C2276B435E001FDB20 /* TabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A20C1276B435E001FDB20 /* TabCurve.swift */; };
 		A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9048C2760E62F004357FE /* ReedApp.swift */; };
 		A4A9048F2760E62F004357FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9048E2760E62F004357FE /* ContentView.swift */; };
 		A4A904912760E632004357FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A904902760E632004357FE /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A47A20BE276B40D8001FDB20 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A47A20C1276B435E001FDB20 /* TabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCurve.swift; sourceTree = "<group>"; };
 		A4A904892760E62F004357FE /* Reed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A9048C2760E62F004357FE /* ReedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedApp.swift; sourceTree = "<group>"; };
 		A4A9048E2760E62F004357FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A47A20C0276B434B001FDB20 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A47A20BE276B40D8001FDB20 /* TabBar.swift */,
+				A47A20C1276B435E001FDB20 /* TabCurve.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		A4A904802760E62F004357FE = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +263,7 @@
 				A4BD4AAE276274720054273E /* HorizontalProgressView.swift */,
 				A4BD4AB0276276F40054273E /* VerticalBookView.swift */,
 				A4BD4AB627627CA70054273E /* CircularProgressView.swift */,
+				A47A20C0276B434B001FDB20 /* TabBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -405,8 +419,10 @@
 				A4BD4AAF276274720054273E /* HorizontalProgressView.swift in Sources */,
 				A4BD4AB1276276F40054273E /* VerticalBookView.swift in Sources */,
 				A4BD4ABA27627CBD0054273E /* Color+Reed.swift in Sources */,
+				A47A20BF276B40D9001FDB20 /* TabBar.swift in Sources */,
 				A4BD4A96276260FA0054273E /* Font+Reed.swift in Sources */,
 				A4BD4AB527627C070054273E /* TodaysProgressView.swift in Sources */,
+				A47A20C2276B435E001FDB20 /* TabCurve.swift in Sources */,
 				A4A904B92760E6AC004357FE /* HomeView.swift in Sources */,
 				A4A9048F2760E62F004357FE /* ContentView.swift in Sources */,
 				A4BD4A8A2762593E0054273E /* CurrentlyReadingView.swift in Sources */,

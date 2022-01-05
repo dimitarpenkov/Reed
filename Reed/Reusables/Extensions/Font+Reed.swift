@@ -16,11 +16,23 @@ extension Font {
         return Font.custom("KumbhSans-Bold", size: 25)
     }
 
+    static var primary20Bold: Font {
+        return Font.custom("KumbhSans-Bold", size: 20)
+    }
+
     static var primary18Bold: Font {
         return Font.custom("KumbhSans-Bold", size: 18)
     }
     
+    static var primary15Bold: Font {
+        return Font.custom("KumbhSans-Bold", size: 15)
+    }
+
     // MARK: - Regular
+
+    static var primary20Regular: Font {
+        return Font.custom("KumbhSans-Regular", size: 20)
+    }
 
     static var primary16Regular: Font {
         return Font.custom("KumbhSans-Regular", size: 16)

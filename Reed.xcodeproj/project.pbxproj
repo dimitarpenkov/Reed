@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43457312784168D00E54207 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457302784168D00E54207 /* ActionButton.swift */; };
+		A43457342784189200E54207 /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457332784189200E54207 /* BookDetailsView.swift */; };
 		A47A20BF276B40D9001FDB20 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A20BE276B40D8001FDB20 /* TabBar.swift */; };
 		A47A20C2276B435E001FDB20 /* TabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A20C1276B435E001FDB20 /* TabCurve.swift */; };
 		A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9048C2760E62F004357FE /* ReedApp.swift */; };
@@ -54,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43457302784168D00E54207 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		A43457332784189200E54207 /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
 		A47A20BE276B40D8001FDB20 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A47A20C1276B435E001FDB20 /* TabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCurve.swift; sourceTree = "<group>"; };
 		A4A904892760E62F004357FE /* Reed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +116,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A43457322784187E00E54207 /* BookDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A43457332784189200E54207 /* BookDetailsView.swift */,
+			);
+			path = BookDetails;
+			sourceTree = "<group>";
+		};
 		A47A20C0276B434B001FDB20 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,10 +156,10 @@
 		A4A9048B2760E62F004357FE /* Reed */ = {
 			isa = PBXGroup;
 			children = (
-				A4BD4AAC2762745B0054273E /* Reusables */,
-				A4BD4A8E276259A50054273E /* General */,
-				A4BD4AAB276263D70054273E /* Info.plist */,
 				A4A904922760E632004357FE /* Preview Content */,
+				A4BD4A8E276259A50054273E /* General */,
+				A4BD4AAC2762745B0054273E /* Reusables */,
+				A4BD4AAB276263D70054273E /* Info.plist */,
 				A4A904902760E632004357FE /* Assets.xcassets */,
 				A4BD4A8F276259AC0054273E /* Resources */,
 				A4BD4A8B2762594F0054273E /* DummyData */,
@@ -184,6 +196,7 @@
 		A4A904B62760E699004357FE /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A43457322784187E00E54207 /* BookDetails */,
 				A4A904B72760E6A0004357FE /* Home */,
 			);
 			path = Scenes;
@@ -264,6 +277,7 @@
 				A4BD4AB0276276F40054273E /* VerticalBookView.swift */,
 				A4BD4AB627627CA70054273E /* CircularProgressView.swift */,
 				A47A20C0276B434B001FDB20 /* TabBar */,
+				A43457302784168D00E54207 /* ActionButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -420,6 +434,7 @@
 				A4BD4AB1276276F40054273E /* VerticalBookView.swift in Sources */,
 				A4BD4ABA27627CBD0054273E /* Color+Reed.swift in Sources */,
 				A47A20BF276B40D9001FDB20 /* TabBar.swift in Sources */,
+				A43457342784189200E54207 /* BookDetailsView.swift in Sources */,
 				A4BD4A96276260FA0054273E /* Font+Reed.swift in Sources */,
 				A4BD4AB527627C070054273E /* TodaysProgressView.swift in Sources */,
 				A47A20C2276B435E001FDB20 /* TabCurve.swift in Sources */,
@@ -429,6 +444,7 @@
 				A4BD4A8D276259590054273E /* Book.swift in Sources */,
 				A4BD4AB727627CA70054273E /* CircularProgressView.swift in Sources */,
 				A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */,
+				A43457312784168D00E54207 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

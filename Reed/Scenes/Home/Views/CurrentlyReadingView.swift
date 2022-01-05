@@ -10,13 +10,16 @@ import SwiftUI
 struct CurrentlyReadingView: View {
     
     var books: [Book]
+    var onBookTap: (Book) -> Void = { _ in }
     var body: some View {
         VStack {
             CurrentlyReadingTitle()
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 26) {
                     ForEach(books, id: \.id) { book in
-                        VerticalBookView(book: book)
+                        VerticalBookView(book: book) { book in
+                            onBookTap(book)
+                        }
                     }
                 }
             }

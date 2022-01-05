@@ -55,7 +55,7 @@ struct Outline: View {
     var width: CGFloat = 200.0
     var height: CGFloat = 200.0
 
-    var colors: [Color] = [Color.outlineColor]
+    var colors: [Color] = [Color.actionButtonBackgroundColor]
     
     var body: some View {
         ZStack {

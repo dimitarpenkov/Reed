@@ -16,7 +16,9 @@ struct HomeView: View {
             VStack {
                 ScrollView(.vertical) {
                     VStack(spacing: 40.0) {
-                        CurrentlyReadingView(books: currentlyReadingBooks)
+                        CurrentlyReadingView(books: currentlyReadingBooks) { book in
+                            NavigationLink(
+                        }
                         TodaysProgressView(percentage: 80, timeLeft: 15)
                     }
                 }

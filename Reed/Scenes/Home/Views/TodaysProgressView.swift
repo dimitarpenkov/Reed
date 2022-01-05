@@ -25,7 +25,9 @@ struct TodaysProgressView: View {
                 percentage: percentage,
                 subtitle: "\(timeLeft)min left\n of daily goal 40min"
             )
-            
+            ActionButton(title: "Start Session") {
+                //todo
+            }
         }
         .foregroundColor(.white)
     }

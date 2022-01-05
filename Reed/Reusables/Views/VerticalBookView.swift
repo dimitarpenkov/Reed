@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct VerticalBookView: View {
-    
+
     var book: Book
+    var onTap: (Book) -> Void = {_ in }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Image(book.image)
+                .resizable()
                 .frame(width: UIScreen.main.bounds.width / 2, height: 300)
+                .clipped()
+                .cornerRadius(20)
             VStack(alignment: .leading) {
                 Text(book.title)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -36,6 +40,9 @@ struct VerticalBookView: View {
             .padding(.leading, 8)
         }
         .foregroundColor(.white)
+        .onTapGesture {
+            onTap(book)
+        }
     }
 }
 

@@ -14,43 +14,16 @@ struct TabBar: View {
     var body: some View {
         HStack(spacing: 0) {
             TabBarButton(image: "house", selectedTab: $selectedTab, tabPoints: $tabPoints)
-            TabBarButton(image: "bookmark", selectedTab: $selectedTab, tabPoints: $tabPoints)
-            TabBarButton(image: "message", selectedTab: $selectedTab, tabPoints: $tabPoints)
+            TabBarButton(image: "book", selectedTab: $selectedTab, tabPoints: $tabPoints)
+            TabBarButton(image: "clock", selectedTab: $selectedTab, tabPoints: $tabPoints)
             TabBarButton(image: "person", selectedTab: $selectedTab, tabPoints: $tabPoints)
         }
         .padding()
         .background(
             Color.purple.opacity(0.4)
-                .clipShape(TabCurve(tabPoint: getCurvePoint() - 15))
-        )
-        .overlay(
-            Circle()
-                .fill(Color.white)
-                .frame(width: 10, height: 10)
-                .offset(x: getCurvePoint() - 20)
-            ,
-            alignment: .bottomLeading
         )
         .cornerRadius(30)
         .padding(.horizontal)
-    }
-    
-    func getCurvePoint() -> CGFloat {
-        
-        if tabPoints.isEmpty {
-            return 10
-        } else {
-            switch selectedTab {
-            case "house":
-                return tabPoints[0]
-            case "bookmark":
-                return tabPoints[1]
-            case "message":
-                return tabPoints[2]
-            default:
-                return tabPoints[3]
-            }
-        }
     }
 }
 

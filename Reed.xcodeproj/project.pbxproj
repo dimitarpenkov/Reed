@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4303B73278749F000BA1697 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4303B72278749F000BA1697 /* CloseButton.swift */; };
 		A43457312784168D00E54207 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457302784168D00E54207 /* ActionButton.swift */; };
 		A43457342784189200E54207 /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457332784189200E54207 /* BookDetailsView.swift */; };
+		A4623D6A2786E954006C1311 /* View+Reed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4623D692786E954006C1311 /* View+Reed.swift */; };
+		A4623D6E2786E998006C1311 /* NavigationLinkModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4623D6D2786E998006C1311 /* NavigationLinkModifier.swift */; };
 		A47A20BF276B40D9001FDB20 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A20BE276B40D8001FDB20 /* TabBar.swift */; };
 		A47A20C2276B435E001FDB20 /* TabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A20C1276B435E001FDB20 /* TabCurve.swift */; };
 		A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9048C2760E62F004357FE /* ReedApp.swift */; };
@@ -56,8 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4303B72278749F000BA1697 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		A43457302784168D00E54207 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		A43457332784189200E54207 /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
+		A4623D692786E954006C1311 /* View+Reed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Reed.swift"; sourceTree = "<group>"; };
+		A4623D6D2786E998006C1311 /* NavigationLinkModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkModifier.swift; sourceTree = "<group>"; };
 		A47A20BE276B40D8001FDB20 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A47A20C1276B435E001FDB20 /* TabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCurve.swift; sourceTree = "<group>"; };
 		A4A904892760E62F004357FE /* Reed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +128,22 @@
 				A43457332784189200E54207 /* BookDetailsView.swift */,
 			);
 			path = BookDetails;
+			sourceTree = "<group>";
+		};
+		A4623D6B2786E97C006C1311 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A4623D6C2786E98E006C1311 /* Modifiers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A4623D6C2786E98E006C1311 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A4623D6D2786E998006C1311 /* NavigationLinkModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		A47A20C0276B434B001FDB20 /* TabBar */ = {
@@ -264,6 +286,7 @@
 		A4BD4AAC2762745B0054273E /* Reusables */ = {
 			isa = PBXGroup;
 			children = (
+				A4623D6B2786E97C006C1311 /* Utilities */,
 				A4BD4AB827627CB30054273E /* Extensions */,
 				A4BD4AAD276274650054273E /* Views */,
 			);
@@ -278,6 +301,7 @@
 				A4BD4AB627627CA70054273E /* CircularProgressView.swift */,
 				A47A20C0276B434B001FDB20 /* TabBar */,
 				A43457302784168D00E54207 /* ActionButton.swift */,
+				A4303B72278749F000BA1697 /* CloseButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +311,7 @@
 			children = (
 				A4BD4A95276260FA0054273E /* Font+Reed.swift */,
 				A4BD4AB927627CBD0054273E /* Color+Reed.swift */,
+				A4623D692786E954006C1311 /* View+Reed.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -430,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4623D6A2786E954006C1311 /* View+Reed.swift in Sources */,
 				A4BD4AAF276274720054273E /* HorizontalProgressView.swift in Sources */,
 				A4BD4AB1276276F40054273E /* VerticalBookView.swift in Sources */,
 				A4BD4ABA27627CBD0054273E /* Color+Reed.swift in Sources */,
@@ -441,8 +467,10 @@
 				A4A904B92760E6AC004357FE /* HomeView.swift in Sources */,
 				A4A9048F2760E62F004357FE /* ContentView.swift in Sources */,
 				A4BD4A8A2762593E0054273E /* CurrentlyReadingView.swift in Sources */,
+				A4303B73278749F000BA1697 /* CloseButton.swift in Sources */,
 				A4BD4A8D276259590054273E /* Book.swift in Sources */,
 				A4BD4AB727627CA70054273E /* CircularProgressView.swift in Sources */,
+				A4623D6E2786E998006C1311 /* NavigationLinkModifier.swift in Sources */,
 				A4A9048D2760E62F004357FE /* ReedApp.swift in Sources */,
 				A43457312784168D00E54207 /* ActionButton.swift in Sources */,
 			);

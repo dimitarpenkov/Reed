@@ -41,4 +41,8 @@ extension Font {
     static var primary13Regular: Font {
         return Font.custom("KumbhSans-Regular", size: 13)
     }
+
+    static var primary11Regular: Font {
+        return Font.custom("KumbhSans-Regular", size: 11)
+    }
 }
